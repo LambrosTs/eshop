@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: black; /* Fallback */
+    color: white;
+}
+
+#index {
+    background: url('background-index.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+#necklaces {
+    background: url('background-necklaces.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+#bracelets {
+    background: url('background-bracelets.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+#candles {
+    background: url('background-candles.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+#decorations {
+    background: url('background-decorations.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+#contact {
+    background: url('background-contact.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+#cart {
+    background: url('background-cart.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+/* Navigation Bar Styles */
+nav {
+    background: rgba(30, 30, 30, 0.9); /* Dark gray for contrast */
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    position: relative;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+}
+
+nav ul li a:hover {
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background: rgba(50, 50, 50, 0.9); /* Dark gray background */
+    top: 100%;
+    left: 0;
+    width: 150px;
+    border-radius: 5px;
+}
+
+.dropdown-menu li {
+    margin: 0;
+}
+
+.dropdown-menu li a {
+    color: white; /* Keep text white */
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+/* Container Styling (For readability) */
+.container {
+    margin-top: 100px;
+    font-size: 28px;
+    background: rgba(75, 0, 130, 0.7); /* Dark purple with 70% opacity */
+    padding: 20px;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+/* Optional: Styling for specific text elements */
+h1, h2, p {
+    background: rgba(75, 0, 130, 0.7); /* Dark purple with 70% opacity */
+    padding: 10px;
+    display: inline-block;
+    border-radius: 5px; /* Optional, for rounded corners */
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 30px;
+}
